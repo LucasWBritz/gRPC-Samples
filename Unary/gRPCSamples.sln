@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnaryCalls", "UnaryCalls", "{7F98AB53-F551-4387-A6E1-6FA8A4510DC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnaryServer", "UnaryServer\UnaryServer.csproj", "{F1F2A48F-DF90-44DD-A98C-E6FBB030C771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnaryClient", "UnaryClient\UnaryClient.csproj", "{88FF9073-99D4-4126-9CA8-EF363D62C3B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1F2A48F-DF90-44DD-A98C-E6FBB030C771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F2A48F-DF90-44DD-A98C-E6FBB030C771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F2A48F-DF90-44DD-A98C-E6FBB030C771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F2A48F-DF90-44DD-A98C-E6FBB030C771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FF9073-99D4-4126-9CA8-EF363D62C3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FF9073-99D4-4126-9CA8-EF363D62C3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FF9073-99D4-4126-9CA8-EF363D62C3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FF9073-99D4-4126-9CA8-EF363D62C3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1F2A48F-DF90-44DD-A98C-E6FBB030C771} = {7F98AB53-F551-4387-A6E1-6FA8A4510DC6}
+		{88FF9073-99D4-4126-9CA8-EF363D62C3B0} = {7F98AB53-F551-4387-A6E1-6FA8A4510DC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32ED458E-F9A9-4F77-9184-8281AC91285F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+option csharp_namespace = "UnaryClient";
+package calculator;
+
+service Calculator {
+	rpc SumValue(Values) returns (OperationResult);
+	rpc SubtractValue(Values) returns (OperationResult);
+}
+
+message Values {
+	int32 a = 1;
+	int32 b = 2;
+}
+
+message OperationResult {
+	int32 result = 1;
+}
